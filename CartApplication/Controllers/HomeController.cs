@@ -10,6 +10,7 @@ namespace CartApplication.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.phwang = "Paul Hwang";
             return View();
         }
 
